@@ -291,13 +291,8 @@ img {
   }
   .block-about {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; /* Центрирование по вертикали */
   }
-  .box-about1,
-  .box-about2 {
+  .box-about1 {
     gap: 32px;
     width: 336px;
     height: 160px;
@@ -306,11 +301,19 @@ img {
   .box-about2 {
     width: 704px;
     height: 243px;
-    margin-top: 20px; /* Подняли блок немного вверх, чтобы добавить отступ снизу */
+    border-radius: 30px;
+    margin-top: 0;
     margin-bottom: 50px;
     display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
+    justify-content: center;
+    align-items: center;
+  }
+  .box-about2 .img-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
   }
   .box-about2 .img-about img {
     max-width: 100%;

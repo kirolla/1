@@ -360,7 +360,8 @@ img {
   .box-about2 {
     width: 335px;
     height: 313px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
+    margin-top: 0;
     display: flex;
     justify-content: center; 
     align-items: center; 

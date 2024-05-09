@@ -226,7 +226,7 @@ img {
   height: 160px;
   background-color: #f3f5f6;
   border-radius: 30px;
-  padding: 32px; /* Добавляем отступы внутри блоков */
+  padding: 32px; 
 }
 
 .box-about5 {
@@ -236,9 +236,9 @@ img {
   background-color: #4dc274;
   border-radius: 30px;
   margin-top: -192px;
-    display: flex; /* Размещаем содержимое по оси */
-    justify-content: center; /* Выравниваем по горизонтали */
-    align-items: center; /* Выравниваем по вертикали */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
   }
 
 .img-about {

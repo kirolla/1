@@ -292,9 +292,9 @@ img {
   .block-about {
     width: 100%;
     display: flex;
-    flex-wrap: wrap; /* Обертывание элементов, если они не помещаются в одной строке */
-    justify-content: center; /* Центрирование по горизонтали */
-    gap: 32px; /* Пространство между элементами */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 32px; 
   }
   .box-about1,
   .box-about2 {
@@ -325,7 +325,7 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .section#about {
     width: 335px;
     display: flex;
@@ -349,7 +349,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Центрирование по вертикали */
+    justify-content: center; 
   }
   .box-about1 {
     gap: 20px;
@@ -362,8 +362,8 @@ img {
     height: 313px;
     margin-bottom: 0px;
     display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; 
+    align-items: center; 
   }
   .box-about2 .img-about img {
     max-width: 100%;

@@ -302,9 +302,6 @@ img {
     height: 160px;
     border-radius: 30px;
   }
-  .box-about1 {
-    margin-bottom: 20px; /* Добавляем отступ снизу для разделения блоков */
-  }
   .box-about2 {
     width: 704px;
     height: 243px;

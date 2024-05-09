@@ -270,18 +270,18 @@ img {
   letter-spacing: -0.02em;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px){
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .section#about {
     max-width: 768px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-.container-about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .title-about {
     font-size: 32px;
   }
@@ -307,5 +307,10 @@ img {
     display: flex; 
     justify-content: center; 
     align-items: center; 
+  }
+  .box-about2 .img-about img {
+    margin: auto; /* Добавляем эту строку для центрирования изображения */
+    max-width: 100%; /* Опционально, чтобы изображение масштабировалось по ширине */
+    max-height: 100%; /* Опционально, чтобы изображение масштабировалось по высоте */
   }
 }

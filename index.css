@@ -198,7 +198,7 @@ img {
   display: flex;
   justify-content: center;
   line-height: 48px;
-  letter-spacing: -2%;
+  letter-spacing: -0.02em;
 }
 
 .text-about {
@@ -227,7 +227,6 @@ img {
 }
 
 .box-about2 {
-  
   width: 310px;
   height: 352px;
   background-color: #4dc274;
@@ -259,7 +258,7 @@ img {
   margin-bottom: 16px;
   display: flex;
   line-height: 32px;
-  letter-spacing: -2%;
+  letter-spacing: -0.02em;
 }
 
 .text-about-us {
@@ -268,34 +267,12 @@ img {
   color: #121417;
   margin-bottom: 32px; 
   line-height: 24px;
-  letter-spacing: -2%;
+  letter-spacing: -0.02em;
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 768px) {
   .section#about {
-    width: 100%;
-  }
-
-  .title-about {
-    font-size: 30px;
-  }
-  .text-about {
-    font-size: 18px;
-    width: 658px;
-  }
-  .block-about {
-    width: 100%;
-    margin-top: 40px;
-  }
-  .box-about1 {
-    gap: 20px;
-  }
-}
-
-
-@media only screen and (max-width: 767px) {
-  .section#about {
-    width: 100%;
+    max-width: 768px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -327,5 +304,32 @@ img {
     margin-top: 0;
     margin-bottom: 40px;
     margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section#about {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .title-about {
+    font-size: 40px;
+  }
+  .text-about {
+    font-size: 18px;
+    width: 658px;
+  }
+  .block-about {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .box-about1 {
+    gap: 20px;
+  }
+  .box-about2 {
+    width: 704px;
+    height: 243px;
+    margin-bottom: 50px;
   }
 }

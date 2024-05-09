@@ -296,6 +296,9 @@ img {
 @media only screen and (max-width: 767px) {
   .section#about {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .title-about {
@@ -323,5 +326,6 @@ img {
     height: 313px;
     margin-top: 0;
     margin-bottom: 40px;
+    margin-top: 40px;
   }
 }

@@ -296,15 +296,17 @@ img {
 @media only screen and (max-width: 767px) {
   .section#about {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
   }
 
   .title-about {
     font-size: 32px;
   }
   .text-about {
+   font-size: 18px;
+   width: 658px;
    font-size: 14px;
    width: 334px;
   }
@@ -312,12 +314,18 @@ img {
     width: 100%;
     margin-top: 40px;
   }
-  .box-about1,
-  .box-about2 {
-    margin: 0 auto; /* Добавляем эту строку для центрирования */
+  .box-about1 {
     gap: 32px;
+  }
+  .box-about1 {
     width: 335px;
-    height: auto; /* Чтобы высота автоматически рассчитывалась в зависимости от содержимого */
-    text-align: center; /* Центрируем содержимое внутри блоков */
+    height: 160px;
+  }
+  .box-about2 {
+    width: 335px;
+    height: 313px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
 }

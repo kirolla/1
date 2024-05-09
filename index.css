@@ -280,8 +280,8 @@ img {
     font-size: 30px;
   }
   .text-about {
-   font-size: 14px;
-   width: 334px;
+    font-size: 18px;
+    width: 658px;
   }
   .block-about {
     width: 100%;
@@ -299,22 +299,28 @@ img {
   }
 
   .title-about {
-    font-size: 40px;
+    font-size: 32px;
   }
   .text-about {
    font-size: 18px;
    width: 658px;
+   font-size: 14px;
+   width: 334px;
   }
   .block-about {
-    width: 335px;
-    margin-top: 64px;
+    width: 100%;
+    margin-top: 40px;
   }
   .box-about1 {
     gap: 32px;
   }
+  .box-about1 {
+    width: 335px;
+    height: 160px;
+  }
   .box-about2 {
-    width: 704px;
-    height: 243px;
+    width: 335px;
+    height: 313px;
     margin-top: 0;
     margin-bottom: 40px;
   }

@@ -270,6 +270,19 @@ img {
   letter-spacing: -0.02em;
 }
 
+@media screen and (min-width: 375px) {
+   .box-about1 {
+    width: 335px;
+  }
+  .img-about {
+    width: 335px;
+    border-radius: 16px;
+  }
+  .text-about {
+    width: 334px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .section#about {
     max-width: 768px;
@@ -293,21 +306,22 @@ img {
   }
   .box-about1 {
     gap: 32px;
-  }
-  .box-about1 {
-    width: 335px;
+    width: 336px;
     height: 160px;
+    border-radius: 30px;
   }
   .box-about2 {
-    width: 335px;
-    height: 313px;
+    width: 704px;
+    height: 243px;
     margin-top: 0;
     margin-bottom: 40px;
     margin-top: 40px;
+    border-radius: 30px;
   }
 }
 
-@media screen and (min-width: 1158px) {
+/*
+@media screen and (min-width: 1280px) {
   .section#about {
     width: 100%;
     margin: 0 auto;
@@ -332,4 +346,4 @@ img {
     height: 243px;
     margin-bottom: 50px;
   }
-}
+}*/

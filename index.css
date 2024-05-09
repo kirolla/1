@@ -282,7 +282,6 @@ img {
     width: 334px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .section#about {
     max-width: 768px;
@@ -295,10 +294,8 @@ img {
     font-size: 32px;
   }
   .text-about {
-   font-size: 18px;
-   width: 658px;
-   font-size: 14px;
-   width: 334px;
+    font-size: 18px;
+    width: 658px;
   }
   .block-about {
     width: 100%;
@@ -313,9 +310,8 @@ img {
   .box-about2 {
     width: 704px;
     height: 243px;
-    margin-top: 0;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     border-radius: 30px;
   }
 }

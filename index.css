@@ -300,6 +300,7 @@ img {
   .block-about {
     width: 100%;
     margin-top: 40px;
+    margin-bottom: 64px;
   }
   .box-about1 {
     gap: 32px;
@@ -310,7 +311,6 @@ img {
   .box-about2 {
     width: 704px;
     height: 243px;
-    margin-top: 20px;
     margin-bottom: 50px;
     border-radius: 30px;
   }

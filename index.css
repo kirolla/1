@@ -331,7 +331,10 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
+  
   .container-about {
     display: flex;
     flex-direction: column;
